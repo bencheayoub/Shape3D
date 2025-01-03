@@ -13,11 +13,11 @@ public class Cuboid  implements Shape3D{
     @Override
     public double calculateVolume(){
         return (length*width)*height;
-    };
+    }
 
     @Override
     public double calculateSurfaceArea(){
         return 2*(length*width+width*height+length*height);
     }
-    //length, width, and height (all double): Dimensions of the cuboid.
+    
 }
