@@ -1,3 +1,4 @@
+package exo2;
 public class Sphere implements Shape3D{
 
     double r;
