@@ -12,6 +12,7 @@ public class CompositeShape implements Shape3D {
     public void addShape(Shape3D shape){
         shapes.add(shape);
     }
+   
     @Override
     public double calculateVolume(){
         double clac = 0;
@@ -29,9 +30,5 @@ public class CompositeShape implements Shape3D {
         }
     return surf;
     }
-
-
-
-
 
 }
