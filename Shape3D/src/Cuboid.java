@@ -1,3 +1,4 @@
+package exo2;
 public class Cuboid  implements Shape3D{
     private double length;
     private double width;
