@@ -5,7 +5,6 @@ import java.util.List;
 
 public class CompositeShape implements Shape3D {
     private List<Shape3D> shapes;
-
     public CompositeShape(){
         shapes = new ArrayList<>();
     }
@@ -31,5 +30,4 @@ public class CompositeShape implements Shape3D {
         }
     return surf;
     }
-
 }
